@@ -1,35 +1,404 @@
-@media screen and (max-width: 1199px)
-	.case
-		width: 950px
-	
-	.hidden-lg
-		display: block
-	
-	.hidden-md
-		display: none
+@media screen and (max-width: 670px)
+	.auto
+		&__price	
+			padding-left: 0
+			padding-right: 0
+			&-item
+				padding-left: 0
+
+@media screen and (max-width: 640px)
+	.auto__data
+		&-col
+			width: 50% !important
+			&:nth-of-type(1)
+				margin-bottom: 10px
+	.contacts
+		&__messagers
+			left: 290px
+			// bottom: 25px
+			li
+				margin-bottom: 10px
+				&:last-of-type
+					margin-bottom: 0
+		&__phone
+			margin-top: 60px
+			
+
+@media screen and (max-width: 620px)
+	.we
+		&__item
+			width: 100%
+			max-width: 280px
+			height: auto !important
+			background-size: 100% auto
+			font-size: 18px
+			padding: 12px 20px
+			
+	.buyout
+		&__title
+			margin-bottom: 40px
+			
+		&__table
+			padding-top: 0
+			table
+				thead
+					td
+						padding-top: 12px
+						padding-bottom: 12px
+						
+				tbody
+					.fz30
+						font-size: 22px
+					tr
+						
+				td
+					font-size: 16px
+					line-height: 18px
+					padding: 5px 5px
+					&:first-of-type
+						width: auto
+					&:nth-of-type(3)
+						display: none
+		
+@media screen and (max-width: 560px)
+	.contacts
+		&__messagers
+			position: relative
+			left: 0
+			bottom: 0
+			margin-top: 25px
+		&__phone
+			margin-top: 30px
+			
+			
 
 
-	
-@media screen and (max-width: 992px)
-	.case
-		width: 750px
-
-	.hidden-md
-		display: block		
-	
-	.hidden-sm
-		display: none
 
 
-	
-@media screen and (max-width: 767px)
-	.case
-		width: 100%
+@media screen and (max-width: 540px)
+	.partners
+		padding-bottom: 30px
+		&__text
+			font-size: 24px
+			line-height: 26px
+			padding-left: 15px
+			padding-right: 15px
+			padding-top: 50px
+			padding-bottom: 35px
+			margin-bottom: 50px
+			p
+				padding-left: 0
+				padding-right: 0
+				&:after
+					margin-left: 0
+					margin-right: 0
+					margin-top: 20px
+					margin-bottom: 20px
+			&:after
+				bottom: -27px
+				border-width: 28px 38px 0 38px
 
-	.hidden-sm
-		display: block
-	
-	.hidden-xs
-		display: none
-	
+	.who
+		padding-bottom: 35px
+		&__list
+			&:before
+				top: 5px
+				bottom: 5px
+			
+		&__round
+			width: 45px
+			height: 45px
+			position: relative
+			left: 3px
+			&:after
+				width: 12px
+				right: -22px
+		&__text
+			margin-left: 20px
+			width: calc(100% - 45px - 20px)
+			padding: 7px 15px
+			font-size: 20px
 
+	.how
+		&__title
+			margin-left: 132px
+			
+		&__list
+			padding-top: 95px
+			padding-bottom: 40px
+			min-height: 905px
+			&:before
+				width: 540px
+				background-size: 540px auto
+				left: -55px
+			
+		&__item
+			margin-bottom: 20px
+			
+		&__count
+			font-size: 45px
+			width: 120px
+			height: 120px
+			background-size: cover
+
+		&__content
+			height: auto
+			padding-left: 95px
+			font-size: 22px
+
+		&__text
+			
+			
+	.auto
+		&__slider
+			&-item
+				height: 300px
+			
+		&__price
+			background-size: cover
+			.case
+				padding-left: 10px
+				padding-right: 10px
+			&-item
+				padding-top: 12px
+				
+			&-desc
+				font-size: 20px
+				line-height: 24px
+			&-num
+				font-size: 20px
+			&-text
+				padding-left: 10px
+				font-size: 18px
+				line-height: 20px
+		&__content
+			.slick-arrow
+				top: 95px
+			
+			
+@media screen and (max-width: 520px)
+	.mobile-nav
+		width: 260px
+		&__wrap
+			padding: 20px 15px
+		&__logo
+			margin-bottom: 15px
+				
+		&__list
+			a
+				font-size: 22px
+				padding: 7px 0
+				font-size: 18px
+
+		&__phone
+			margin-bottom: 10px
+			margin-top: 0px
+			img
+				width: 20px
+				height: 30px
+			a
+				font-size: 20px
+
+		&__address
+
+			
+			
+				
+			
+
+	.wrap
+		&_toggle
+			left: 260px
+
+	.header
+		&_toggle
+			transform: translateX(260px)
+
+			
+@media screen and (max-width: 450px)
+	.header
+		&__logo
+			max-width: calc(100% - 35px - 30px)
+			padding-top: 0
+			padding-left: 35px
+			padding-right: 35px
+		&_scroll
+			background-position: center -17px
+	.auto
+		&__data
+			padding-left: 25px
+			padding-right: 25px
+			&-head
+				display: block
+			&-body
+				font-size: 18px
+			&-num
+				font-size: 40px
+				line-height: 44px
+				margin-bottom: 15px
+			&-textus
+				margin-left: 0
+				text-align: left
+			&-desc
+				text-align: left
+			&-line
+				align-items: center
+				span
+					width: 105px
+				.color
+					width: 15px
+					height: 15px
+					margin-right: 4px
+					&__text
+						
+					&_large
+						position: relative
+						top: -4px
+						width: calc(100% - 105px)
+				p
+					width: calc(100% - 105px)
+			&-text
+				font-size: 18px
+
+		&__text
+			padding-top: 0
+			margin-left: 25px
+			margin-right: 25px
+			p
+				font-size: 20px
+				padding-top: 15px
+				padding-left: 0
+				padding-right: 0
+
+	.auto__content .slick-arrow
+		&.slick-prev
+			left: 5px
+		&.slick-next
+			right: 5px
+
+			
+@media screen and (max-width: 420px)
+	
+			
+	.main-slide
+		&__video
+			height: 600px
+			&:before
+				width: 470px
+				background-size: 470px auto
+			video
+				height: 455px
+				top: -90px
+				margin-left: -280px
+		&__content
+			padding-bottom: 35px
+			margin-top: -260px
+			
+
+	.about
+		&__title
+			font-size: 30px
+			line-height: 34px
+			
+		&__count
+			&-text
+				font-size: 18px
+				line-height: 20px
+				padding-top: 12px
+			
+		&__data
+			li
+				font-size: 20px
+				padding-left: 45px
+				&:before
+					left: 0
+					top: 50%
+					transform: translateY(-50%)
+			
+	.advantages
+		&__other
+			padding-top: 25px
+			padding-bottom: 15px
+			&-title
+				margin-bottom: 20px
+			
+		&__list
+			padding-left: 0
+			padding-right: 0
+			
+		&__item
+			background-size: auto 35px
+			margin-bottom: 10px
+			&:last-of-type
+				background: none
+			
+	.faq
+		&__head
+			font-size: 22px
+			line-height: 24px
+			margin-bottom: 5px
+		&__list
+			padding-left: 0
+			padding-right: 0
+			
+		&__item
+			margin-bottom: 25px
+			
+	.questions
+		&__title
+			margin-bottom: 25px
+			
+		&__form
+			padding-left: 0
+			padding-right: 0
+
+	.auto
+		&__content
+			.slick-arrow
+				width: 12px
+				height: 150px
+				top: 35%
+
+			
+	.footer
+		&__form
+			&-wrap
+				padding-left: 0
+				padding-right: 0
+		&__toggle
+			&-head
+				height: auto
+				min-height: 60px
+				padding: 5px 22px 5px 0
+				&:after
+					margin-right: 6px
+			&-item
+				padding-left: 0
+				padding-right: 0
+			
+		&__copy
+			padding-left: 0
+			padding-right: 0
+			
+	.title
+		font-size: 30px
+		line-height: 32px
+
+
+@media screen and (max-width: 380px)
+	.auto
+		&__slider
+			.slick-arrow
+				width: 38px
+				height: 38px
+				background-size: cover !important
+			&-item
+				height: 240px
+
+			.slick-dots
+				li
+					width: 12px
+					height: 12px
+				button
+					width: 8px
+					height: 8px

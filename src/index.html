@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Title</title>
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-	<link rel="stylesheet" href="template/styles/css/style.css" />
-	<link rel="stylesheet" href="template/styles/css/responsive.css" />
-	<script src="template/scripts/libs.js"></script>
-	<script src="template/scripts/common.js"></script>
+	<link rel="stylesheet" href="template/styles/css/style.css?ver=0007" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css?ver=0007" />
+	<script src="template/scripts/libs.js?ver=0007"></script>
+	<script src="template/scripts/common.js?ver=0007"></script>
 	<!--[if lt IE 9]>
 	<script>
 		document.createElement('header');
@@ -21,20 +21,1167 @@
 	<![endif]-->
 </head>
 <body>
+<div class="wrap">
+<div class="mobile-nav bg">
+	<div class="mobile-nav__wrap">
+		<div class="mobile-nav__logo"><a href=""><img src="upload/logo/logo-full.png" alt=""></a></div>
+		<div class="mobile-nav__list">
+			<ul>
+				<li><a href="#advantages">Наши преимущества</a></li>
+				<li><a href="#who">Кому доступен выкуп</a></li>
+				<li><a href="#how">Как получить авто</a></li>
+				<li><a href="#calc">Калькулятор лизинга</a></li>
+				<li><a href="#auto">КАТАЛОГ</a></li>
+				<li><a href="#order">Заявка на лизинг</a></li>
+				<li><a href="#docs">подача документов</a></li>
+				<li><a href="#contacts">КОНТАКТЫ</a></li>
+			</ul>
+		</div>
+		<div class="mobile-nav__phone"><img src="template/img/icons/phone.png" alt=""><a href="tel:+74950030066">+7 495 003 00 66</a></div>
+		<div class="mobile-nav__address">Москва, ул. Большая Грузинская, дом 10</div>
+	</div>
+</div>
 <div class="main-wrap">
 	<header class="header">
-
+		<div class="case row i-mid">
+			<div class="header__hum hum"><span></span><span></span><span></span></div>
+			<div class="header__logo"><a href=""><img src="upload/logo/logo-small.png" alt=""></a></div>
+			<div class="header__lang"><a href=""><img src="upload/ru.png" alt=""></a></div>
+		</div>
 	</header>
 
 
 	<main class="main">
+		<div class="main-slide">
+			<div class="main-slide__video">
+				<video loop="loop" autoplay="autoplay" muted="muted" id="video">
+					<source src="upload/video.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="main-slide__content">
+				<div class="case">
+					<div class="main-slide__title"><img src="upload/logo/logo-small.png" alt=""></div>
+					<div class="main-slide__desc">АРЕНДА И ЛИЗИНГ автомобилей</div>
+					<div class="main-slide__date">Since 2010</div>
+				</div>
+			</div>
+		</div>
+		<div class="about bg">
+			<div class="case">
+				<div class="about__title title">SHUTTLE.RENT ЭТО:</div>
+				<div class="about__counts row">
+					<div class="about__count">
+						<div class="about__count-num">8</div>
+						<div class="about__count-text">лет на автомобильном <br>рынке России</div>
+					</div>
+					<div class="about__count">
+						<div class="about__count-num">756</div>
+						<div class="about__count-text">довольных водителей</div>
+					</div>
+					<div class="about__count">
+						<div class="about__count-num">349</div>
+						<div class="about__count-text">сдано в аренду</div>
+					</div>
+					<div class="about__count">
+						<div class="about__count-num">96</div>
+						<div class="about__count-text">выкупленных ТС</div>
+					</div>
+					<div class="about__count">
+						<div class="about__count-num">349</div>
+						<div class="about__count-text">минут интервал <br>между заказами</div>
+					</div>
+					<div class="about__count">
+						<div class="about__count-num">142</div>
+						<div class="about__count-text">млн. руб. капитал</div>
+					</div>
+				</div>
+				<div class="about__data">
+					<ul>
+						<li>Дорожим репутацией</li>
+						<li>Исключено «самодурство» как у «частников»</li>
+						<li>Большое количество собственных активов</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="advantages" id="advantages">
+			<div class="advantages__list-wrap">
+				<div class="case">
+					<div class="advantages__title title">НАШИ ПРЕИМУЩЕСТВА</div>
+					<div class="advantages__list">
+						<div class="advantages__item">
+							<div class="advantages__icon"><img src="upload/advantages/car-cheklist.png" alt=""></div>
+							<div class="advantages__text">Все ТС исправны, регулярная диагностика, <br>	свежий и чистый салон;</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"><img src="upload/advantages/operator.png" alt=""></div>
+							<div class="advantages__text">Полное обеспечение заказами, <br>	помощь диспетчера, начальника колонны;</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"><img src="upload/advantages/cars.png" alt=""></div>
+							<div class="advantages__text">Весь автопарк – новые автомобили <br>(возраст до 2-х лет);</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"><img src="upload/advantages/goal.png" alt=""></div>
+							<div class="advantages__text">Возможность выезда за пределы Москвы, <br>по всей Московской области;</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"><img src="upload/advantages/coach.png" alt=""></div>
+							<div class="advantages__text">Эксклюзивная система обучения, <br>дни открытых дверей в руководством;</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"><img src="upload/advantages/certificate.png" alt=""></div>
+							<div class="advantages__text">Официальный договор аренды <br>с выкупом/сублизинга;</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"><img src="upload/advantages/str.png" alt=""></div>
+							<div class="advantages__text">Без оплаты за подключение к агрегаторам, <br>комиссия за вывод безнала 3%;</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"><img src="upload/advantages/protection.png" alt=""></div>
+							<div class="advantages__text">В платежи включено на весь срок договора <br>(КАСКО, ОСАГО, ТО, сезонный шиномонтаж);</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"><img src="upload/advantages/time.png" alt=""></div>
+							<div class="advantages__text">Отсрочки в трудные периоды, каникулы;</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"><img src="upload/advantages/stars.png" alt=""></div>
+							<div class="advantages__text">Не портится кредитная история;</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="advantages__other">
+				<div class="advantages__other-title title">ДРУГИЕ НАШИ ПРЕИМУЩЕСТВА</div>
+				<button class="advantages__btn btn btn_blue btn_radius btn_normal">ЧИТАТЬ</button>
+			</div>
+		</div>
+		<div class="partners">
+			<div class="case">
+				<div class="partners__text">
+					<p>Мы Настроены только на долгосрочное сотрудничество!</p>
+					<p>Гарантируем дружеский и честный подход к каждому!</p>
+				</div>
+				<div class="partners__calc">
+					<div class="partners__calc-title title">КАЛЬКУЛЯТОР твоего заработка</div>
+					<div class="partners__calc-wrap">
+						<div class="uCalc_138230"></div>
+						<script>
+						    var widgetOptions138230 = {
+						        bg_color: "transparent"
+						    };
+						    (function() {
+						        var a = document.createElement("script"), h = "head";
+						        a.async = true;
+						        a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=138230&t="+Math.floor(new Date()/18e5);
+						        document.getElementsByTagName(h)[0].appendChild(a)
+						    })();
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="we">
+				<div class="case">
+					<div class="we__list">
+						<div class="we__item">Новичка — обучим!</div>
+						<div class="we__item">Профессионала водителя — обеспечим лучшими условиями работы!</div>
+						<div class="we__item">Подработка — обеспечим существенный доход!</div>
+					</div>
+					<a href="" class="we__btn btn btn_blue btn_radius btn_normal">Заказать звонок</a>
+				</div>
+			</div>
+		</div>
+		<div class="who" id="who">
+			<div class="case">
+				<div class="who__title title">Кто может получить автомобиль на выкуп?</div>
+				<div class="who__list">
+					<div class="who__item">
+						<div class="who__round"></div>
+						<div class="who__text">Гражданство любой страны;</div>
+					</div>
+					<div class="who__item">
+						<div class="who__round"></div>
+						<div class="who__text">ВУ выдано в след странах: РФ, Белоруссия, Киргизия, Казахстан;</div>
+					</div>
+					<div class="who__item">
+						<div class="who__round"></div>
+						<div class="who__text">Открытая категория «В»;</div>
+					</div>
+					<div class="who__item">
+						<div class="who__round"></div>
+						<div class="who__text">Стаж вождения от 3х лет;</div>
+					</div>
+					<div class="who__item">
+						<div class="who__round"></div>
+						<div class="who__text">Знание города, ПДД;</div>
+					</div>
+					<div class="who__item">
+						<div class="who__round"></div>
+						<div class="who__text">Аккуратный стиль вождения;</div>
+					</div>
+					<div class="who__item">
+						<div class="who__round"></div>
+						<div class="who__text">Опрятный внешний вид, знание этикета;</div>
+					</div>
+					<div class="who__item">
+						<div class="who__round"></div>
+						<div class="who__text">Грамотная речь на русском языке, ответственность;</div>
+					</div>
+					<div class="who__item">
+						<div class="who__round"></div>
+						<div class="who__text">Отсутствие судимости</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="how" id="how">
+			<div class="case">
+				<div class="how__title title">Как и где получить авто под выкуп?</div>
+				<div class="how__list">
+					<div class="how__item">
+						<div class="how__count">1</div>
+						<div class="how__content">
+							<div class="how__text">Выберите из каталога доступные автомобили</div>
+							<div class="how__time">15 мин</div>
+						</div>
+					</div>
+					<div class="how__item">
+						<div class="how__count">2</div>
+						<div class="how__content">
+							<div class="how__text">Ознакомьтесь с условиями и подайте заявку</div>
+							<div class="how__time">15 мин</div>
+						</div>
+					</div>
+					<div class="how__item">
+						<div class="how__count">3</div>
+						<div class="how__content">
+							<div class="how__text">После диалога с менеджером подайте документы на проверку</div>
+							<div class="how__time">15 мин</div>
+						</div>
+					</div>
+					<div class="how__item">
+						<div class="how__count">4</div>
+						<div class="how__content">
+							<div class="how__text">Приезжайте за авто</div>
+							<div class="how__time">15 мин</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="calc" id="calc">
+			<div class="case">
+				<div class="calc__title title">Калькулятор лизинга</div>
+				<div class="calc__wrap">
+					<div class="uCalc_138252"></div>
+					<script>
+					    var widgetOptions138252 = {
+					        bg_color: "transparent"
+					    };
+					    (function() {
+					        var a = document.createElement("script"), h = "head";
+					        a.async = true;
+					        a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=138252&t="+Math.floor(new Date()/18e5);
+					        document.getElementsByTagName(h)[0].appendChild(a)
+					    })();
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="auto" id="auto">
+			<div class="auto__list">
+				<div class="auto__item">
+					<div class="auto__slider">
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+					</div>
+					<div class="auto__content">
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="auto__item">
+					<div class="auto__slider">
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+					</div>
+					<div class="auto__content">
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="auto__item">
+					<div class="auto__slider">
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+						<a href="upload/photos/1.png" target="_blank"><div class="auto__slider-item bg" style="background-image: url('upload/photos/1.png');"></div></a>
+					</div>
+					<div class="auto__content">
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="auto__content-item">
+							<div class="auto__price">
+								<div class="case">
+									<div class="auto__price-list row">
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Аренда</div>
+												<div class="auto__price-num">2 000 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Залог 5%</p>
+											</div>
+										</div>
+										<div class="auto__price-item">
+											<div class="auto__price-sum">
+												<div class="auto__price-desc">Выкуп</div>
+												<div class="auto__price-num">3 600 <span>₽</span></div>
+											</div>
+											<div class="auto__price-text">
+												<p>7/0 и 6/1</p>
+												<p>Аванс от 50%</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto__data">
+								<div class="auto__data-list case">
+									<img src="upload/data/1.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="auto__text">
+					<p>В платежи включено на весь срок договора: страховки, резина, ТО</p>
+					<p>Возможно брендирование автомобиля в: Яндекс, Гетт, Везет, Ситимобил</p>
+					<p>Любая другая! — купим авто под Вас с авансом от 10%</p>
+				</div>
+			</div>
 
+		</div>
+		<div class="faq">
+			<div class="case">
+				<div class="faq__title title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</div>
+				<div class="faq__list">
+					<div class="faq__item">
+						<div class="faq__head">Много обмана. Вы работаете честно?</div>
+						<div class="faq__body">Исключительно так. Мы создали много инструментов в помощь водителю, чтобы недопустить дефолта. Все что от Вас нужно — это добросовестно выполнять свои обязательства, обо всем остальном позаботимся мы. У нас нет «ловушек» для водителей, прозрачный и понятный договор</div>
+					</div>
+					<div class="faq__item">
+						<div class="faq__head">А вот фирма другая, отдает оптиму за 2500, а у Вас 3100, в чем разница?</div>
+						<div class="faq__body">Страхвки и новые скрытые платежи.</div>
+					</div>
+					<div class="faq__item">
+						<div class="faq__head">Вы предупреждаете о штрафах, а остальные говорят что нет штрафов!</div>
+						<div class="faq__body">Мы открыто и заранее предупреждаем о правилах. Если Вам говорят, что нет ссанкций — просто внимательнее изучите договор.</div>
+					</div>
+					<div class="faq__item">
+						<div class="faq__head">Как определить надежность компании чтобы взять авто под выкуп?</div>
+						<div class="faq__body">8 лет на рынке! НЕ меняем фирмы! НЕ меняет руководителей! Собираем всех водителей вместе а тренинги и праздники, т.к нам нечего скрывать. Все правила мы рассказываем водителю заранее, не ссылаясь на юридические тонкости.</div>
+					</div>
+					<div class="faq__item">
+						<div class="faq__head">Какая базовая формула формирования цены? <br>Задать свой вопрос — форма</div>
+						<div class="faq__body">Рыночная стоимость + осаго/каско + ТО + резина + ремонт + процент за рассрочку / 720 дней = платеж в день.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="questions" id="order">
+			<div class="case">
+				<div class="questions__title title">Остались вопросы?</div>
+				<div class="questions__form form">
+					<div class="form__input input">
+						<label class="input__title">Ваше имя</label>
+						<input type="text" class="input__wrap">
+					</div>
+					<div class="form__input input input_phone">
+						<label class="input__title">Ваш номер телефона</label>
+						<input type="text" class="input__wrap">
+					</div>
+					<div class="form__textarea textarea">
+						<label class="textarea__title">Задайте свой вопрос</label>
+						<textarea class="textarea__wrap"></textarea>
+					</div>
+					<button class="form__btn btn btn_blue btn_radius btn_normal">Отправить</button>
+				</div>
+			</div>
+		</div>
+		<div class="buyout bg" id="docs">
+			<div class="case">
+				<div class="buyout__title title">Кто может получить автомобиль на выкуп?</div>
+				<div class="buyout__table">
+					<table>
+						<thead>
+							<tr>
+								<td></td>
+								<td>ШАТТЛ Аренда</td>
+								<td>ШАТТЛ Выкуп</td>
+								<td>ДРУГИЕ Выкуп</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Каникулы</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>КАСКО и ОСАГО под такси</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Техническое обслуживание</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Текущий ремонтный фонд</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>НЕТ штрафов</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Обучение водителей</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>К концу срока цена машины ниже</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Фиксированная цена договора</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Защита от «схем развода»</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Рассрочка на крупные штрафы</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Без залога и депозита</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Выезд в другие области</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Пробег не ограничен, без доплаты</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Настоящие путевые листы</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Осмотр 1 раз в месяц</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Фотоконтроль 1 раз в неделю</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Аренда 10 дней, далее выкуп этой же ТС</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="buyout__table">
+					<table>
+						<thead>
+							<tr>
+								<td></td>
+								<td>ШАТТЛ Аренда</td>
+								<td>ШАТТЛ Выкуп</td>
+								<td>ДРУГИЕ Выкуп</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Выгодоприобреталель по страховке</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Цена ссответствует затратам</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Любое гражданство</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Блокировка двигателя при задолжности</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Все условия прописаны в договоре</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Рассрочка по болезни и отпуску</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Досрочный выкуп без доп %</td>
+								<td>+</td>
+								<td>+</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>«Пауза» в договоре без потери денег</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Акт сверки по требованию</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>подключение к агрегаторам без налога 13%</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Ежемесячные тренинги для водителей		</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Ежедневный отчет по балансу договора</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Тест-драйв до подписания договора</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Процентная ставка близка к банковской</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Уменьшение платежей при взносе доп средств</td>
+								<td>ДА</td>
+								<td>ДА</td>
+								<td>НЕТ</td>
+							</tr>
+							<tr>
+								<td>Дни открытых дверей в руководством</td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
 	</main>
 
 
-	<footer class="footer">
-
+	<footer class="footer bg">
+		<div class="contacts" id="contacts">
+			<div class="case">
+				<div class="contacts__data">
+					<div class="contacts__title title">Свяжитесь с нами</div>
+					<div class="contacts__text">
+						<p>ООО «ГК Шаттл Россия»</p>
+						<h3>Мы расположены по адресу:</h3>
+						<p>Россия. Москва, улица Орджоникидзе, <br>дом 25, офис 415</p>
+					</div>
+					<div class="contacts__phone">
+						<div class="contacts__phone-title">Наш телефон для связи:</div>
+						<div class="contacts__phone-text"><a href="tel:+74950030066">+7 495 003 00 66</a></div>
+					</div>
+					<div class="contacts__messagers">
+						<ul>
+							<li><a href=""><img src="upload/viber.png" alt=""></a></li>
+							<li><a href=""><img src="upload/WhatsApp.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="contacts__map">
+				<div id="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1feec27eaf3e15bec90b29e18b1e2020f35c4c2011fc2ae448a4b7aaa0efa848&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script></div>
+			</div>
+		</div>
+		<div class="footer__form">
+			<div class="case">
+				<div class="footer__title title">Остались вопросы?</div>
+				<div class="footer__form-wrap form">
+					<div class="form__input input">
+						<label class="input__title">Ваше имя</label>
+						<input type="text" class="input__wrap">
+					</div>
+					<div class="form__input input input_phone">
+						<label class="input__title">Ваш номер телефона</label>
+						<input type="text" class="input__wrap">
+					</div>
+					<div class="form__textarea textarea">
+						<label class="textarea__title">Задайте свой вопрос</label>
+						<textarea class="textarea__wrap"></textarea>
+					</div>
+					<button class="form__btn btn btn_blue btn_radius btn_normal">Отправить</button>
+				</div>
+			</div>
+			<div class="footer__thanks">
+				<div class="footer__thanks-title title">СПАСибо <br>за внимание!</div>
+			</div>
+			<div class="footer__toggle">
+				<div class="footer__toggle-list">
+					<div class="footer__toggle-item">
+						<div class="footer__toggle-head">Информация, размещенная на сайте, не является публичной офертой</div>
+						<div class="footer__toggle-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis laborum facere eaque, eligendi ut! Porro laborum ipsum vitae vel id neque ex, ullam consequuntur, expedita sunt. Hic culpa esse maxime voluptate fugit molestias veniam debitis itaque velit vero, eaque, libero, quidem nulla, sed non earum ex accusamus. Neque hic dolores, perferendis eius temporibus repellendus nisi saepe, beatae voluptas, tempore impedit culpa tempora. Debitis vero quis facere libero esse alias, rem quam repudiandae laudantium commodi quae quibusdam quasi odit placeat odio eveniet dignissimos repellendus est magnam quisquam voluptates aspernatur sit molestiae vitae! Nobis dolor, modi doloribus quibusdam aliquid! Doloremque, dignissimos, quia.</p>
+						</div>
+					</div>
+					<div class="footer__toggle-item">
+						<div class="footer__toggle-head">Политика конфиденциальности</div>
+						<div class="footer__toggle-body">
+							<p>Данный сайт является единственным достоверным источником информации об услугах и условиях Shuttle.Rent</p>
+							<p>Сайт использует файлы cookie. Они позволяют узнавать вас и получать информацию о вашем пользовательском опыте. Мы обрабатываем ваши данные и можем передать сторонним партнерам.</p>
+							<p>Cookies и пользовательские данные. Соглашение. Если не согласны с соглашением - покиньте сайт.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy">
+				<p>2011-2018  ООО «ГК Шаттл Россия» <br>Департамент Shuttle.Rent. Группа компаний Shuttle</p>
+				<p>Shuttle и Shuttle.Rent являются зарегистрированными товарными знаками. <br>© Все права защищены.</p>
+			</div>
+		</div>
 	</footer>
+</div>
 </div>
 </body>
 </html>
+
